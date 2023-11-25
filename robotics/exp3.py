@@ -1,0 +1,7 @@
+a=input("Enter Your Name:")
+b=input("Enter Your DOB:")
+c=input("Enter your college name:")
+d=input("Enter your branch:")
+e=float(input("Enter your CGPA:"))
+p=round((e-0.75)*10,2)
+print(f"The Student Name is {a} from {d} branch of {c} college, his DOB is {b} and he secured {p}")
